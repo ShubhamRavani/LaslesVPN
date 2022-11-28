@@ -1,0 +1,56 @@
+.locations {
+  margin-top: 150px;
+}
+
+.locations-header {
+  max-width: 380px;
+  margin: 0 auto 30px;
+}
+
+.location-points {
+  margin-top: 100px;
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  padding: 1%;
+}
+
+.brand-img {
+  width: 15%;
+}
+
+@media (max-width: 1024px) {
+  .location-points {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .locations {
+    margin-top: 80px;
+  }
+
+  .location-points {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 376px) {
+  .location-points {
+    padding: 0;
+  }
+
+  .brands {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .brand-img {
+    width: 100px;
+    margin: 0 5px;
+  }
+}
